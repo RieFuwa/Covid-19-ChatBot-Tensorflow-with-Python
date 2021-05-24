@@ -1,14 +1,25 @@
 # Covid-19-ChatBot-Tensorflow-with-Python
+
 import nltk
+
 from nltk.stem.lancaster import LancasterStemmer
+
 stemmer = LancasterStemmer()
+
 import numpy
+
 import tflearn
+
 import tensorflow
+
 import random
+
 import json
+
 import pickle
+
 from tensorflow.python.framework import ops
+
 ops.reset_default_graph()
 
 
